@@ -17,7 +17,7 @@ h3 {
 }
 
 h1 {
-  font-size: 96px;
+  font-size: 60px;
 }
 
 h2 {
@@ -38,8 +38,14 @@ p {
 
 img {
   max-width: auto;
+  padding: 20px, 10px;
 }
 
+.contactline {
+  font-size: 30;
+  opacity: 1;
+  padding-top: 15px;
+}
 .row {
   padding-top: 50px;
 }
@@ -93,4 +99,8 @@ img {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
   color: white;
+}
+
+.aboutmetext {
+  padding: 0 20px;
 }
