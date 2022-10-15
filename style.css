@@ -104,3 +104,24 @@ img {
 .aboutmetext {
   padding: 0 20px;
 }
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 45px;
+  }
+  h2,
+  h3 {
+    font-size: 20px;
+  }
+  .projectdisplay-img {
+    display: none;
+  }
+  .projectheading {
+    font-size: 30px;
+  }
+  .projectdisplay-buttons {
+    display: block;
+    margin: auto;
+    width: 100%;
+  }
+}
